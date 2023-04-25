@@ -1,0 +1,299 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(logo.png);
+}
+.section-1
+{
+    text-align: center;
+    padding: 20px 0;
+  
+   
+}
+.section-1 h2
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style:bold;
+    color: yellow;
+}
+.container
+{
+   /* border: 1px solid red; */
+   width: 1170px;
+   flex-wrap: wrap;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: space-around;
+   background-image: url(logo.png) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 3%;
+}
+.items
+{ 
+    box-shadow: 0px 0px 8px 2px rgb(0,0,2);
+    margin-bottom: 15px;
+    border-radius: 10%;
+    margin-top: 15px;
+    
+}
+.container .items
+{
+    flex-basis: 23%;
+    text-align: center;
+}
+.items h5
+{
+  margin: 10px 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: yellow;
+}
+.items img
+{
+    margin: 10px 20px;
+    border-radius: 25%;
+}
+.items h3
+{
+   margin-top: 20px;
+   color: yellow;
+}
+
+.items:hover
+{
+      transition: ease-in-out;
+      background-color: white;
+
+}
+.items:hover h3
+{
+     color: black;
+}
+.items:hover h5
+{
+    color: black;
+}
+.section-3
+{
+    text-align: center;
+    
+}
+.section-3 img{
+    height: 100px;
+    width: 100px;
+   margin-top: 50px;
+}
+
+.con
+{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ /* background-image: url(logo.png); */
+ /* background-repeat: no-repeat;
+ background-size: cover; */
+ background-color: black;
+}
+
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    padding-right: 70px;
+    color: yellow;
+}
+
+.con img{
+    height: 70px;
+    width: 70px;
+    padding-left: 70px;
+}
+.background
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background img
+{
+    width: 30vw;
+    height: 50vh;
+}
+.history
+{
+    width: 1170px;
+    margin-left: auto;
+    height: 500px;
+    margin-right: auto;
+    border: 1px solid yellowgreen;
+    background-image: url(cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 5%;
+    color: yellow;
+    
+
+}
+.history h2
+{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-top: 3%;
+}
+.history p{
+    margin-top: 8%;
+    padding: 0px 15px;
+    padding-bottom: 20px;
+}
+.history:hover{
+    color: white;
+}
+.button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button
+{
+    border: none;
+}
+button a
+{
+    border: none;
+    background-image: url(logo.png);
+    color: yellow;
+    font-weight: bolder;
+    font-family: sans-serif;
+   
+}
+
+
+.history:hover button a
+{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+td
+{
+    border: 2px solid black;
+    /* border-collapse: collapse; */
+    border-radius: 20%;
+    color: yellow;
+}
+.table
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.table th{
+    width:500px;
+}
+.table td{
+    text-align: center;
+    padding: 50px 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    
+}
+/* table{
+    border: 2px solid black;
+} */
+
+th{
+    color: yellow;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size:x-large;
+    
+}
+
+td:hover
+{
+    transition: ease-in-out;
+    background-color: white;
+    color: black;
+}
+
+.captain-season
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    color: yellow;
+    font-size:xx-large;
+}
+
+.container2
+{
+    width: 1170px;
+    margin-left: auto;
+    height: 500px;
+    margin-right: auto;
+    border: 1px solid yellowgreen;
+    background-image: url(cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 5%;
+    color: yellow;
+    margin-top: 50px;
+
+}
+
+.content h2{
+    text-align: center;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.content .facts
+{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 150px;
+
+}
+
+.content .facts pre
+{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size:larger;
+    text-align: center;
+}
+
+.content .facts p
+{
+    padding-right: 50px;
+    
+}
+
+.content:hover{
+    color: white;
+
+}
+
